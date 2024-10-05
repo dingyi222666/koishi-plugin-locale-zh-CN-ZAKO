@@ -1,7 +1,7 @@
 {
     "name": "koishi-plugin-locale-zh-cn-zako",
     "description": "杂鱼中文语言包",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "type": "module",
     "main": "lib/index.cjs",
     "module": "lib/index.mjs",
@@ -23,8 +23,8 @@
     "keywords": [
         "koishi",
         "plugin",
-        "service",
-        "gradio"
+        "杂鱼",
+        "locale"
     ],
     "author": "dingyi222666 <dingyi222666@foxmail.com>",
     "repository": {

@@ -1,13 +1,8 @@
 import { Context, Schema } from 'koishi'
 
-export function apply(ctx: Context, config: Config) {
+export function apply(ctx: Context) {
     // eslint-disable-next-line @typescript-eslint/no-var-requires
     ctx.i18n.define('zh-CN-ZAKO', require('./zh-CN-ZAKO.yml'))
-}
-
-export interface MessageState {
-    count: number
-    interval?: Disposable
 }
 
 export interface Config {}
