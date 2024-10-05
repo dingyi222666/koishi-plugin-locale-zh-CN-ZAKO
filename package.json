@@ -1,16 +1,16 @@
 {
     "name": "koishi-plugin-locale-zh-cn-zako-yuri",
     "description": "杂鱼中文语言包（百合版）",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "type": "module",
     "main": "lib/index.cjs",
     "module": "lib/index.mjs",
     "typings": "lib/index.d.ts",
     "exports": {
         ".": {
+            "types": "./lib/index.d.ts",
             "import": "./lib/index.mjs",
-            "require": "./lib/index.cjs",
-            "types": "./lib/index.d.ts"
+            "require": "./lib/index.cjs"
         },
         "./package.json": "./package.json"
     },
