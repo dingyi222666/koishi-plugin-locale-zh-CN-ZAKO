@@ -1,7 +1,7 @@
 {
     "name": "koishi-plugin-locale-zh-cn-zako-yuri",
     "description": "杂鱼中文语言包（百合版）",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "type": "module",
     "main": "lib/index.cjs",
     "module": "lib/index.mjs",
@@ -31,7 +31,7 @@
     "author": "q78kg <hoshino-yumetsuki@outlook.com>",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Hoshino-Yumetsuki/koishi-plugin-locale-zh-CN-ZAKO.git",
+        "url": "git+https://github.com/Hoshino-Yumetsuki/koishi-plugin-locale-zh-CN-ZAKO.git",
         "directory": "."
     },
     "bugs": {
