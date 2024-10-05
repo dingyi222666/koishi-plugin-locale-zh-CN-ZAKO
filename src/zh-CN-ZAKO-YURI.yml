@@ -266,7 +266,7 @@ commands:
   rps:
     description: 石头剪刀布
     options:
-      rounds: 姐姐想知道我赢了几局？想知道就自己数去！
+      rounds: 姐姐想知道我赢了几局嘛？想知道就自己数去！
       timeout: 出招限时
   status:
     description: 看看我的状态~
@@ -407,7 +407,7 @@ commands:
     options:
       remove: 重置设置
   usage:
-    description: 姐姐想知道人家被调用了多少次吗？哼这种事才不会告诉你呢！
+    description: 姐姐想知道人家被调用了多少次吗？哼，这种事才不会告诉你呢！
     options:
       set: 设置调用次数？姐姐想玩几次啊？
       clear: 好的，姐姐。  (๑˃̵ᴗ˂̵)و  现在调用次数清零了，接下来要怎么捉弄姐姐呢？呐~反正姐姐也很闲吧
