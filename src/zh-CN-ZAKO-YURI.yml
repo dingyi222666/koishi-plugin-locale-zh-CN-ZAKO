@@ -12,7 +12,7 @@ commands:
 
         翻译结果：{output}'
   novelai:
-    description: 哼，AI画图？就这点技术也想难住我？  ( ･ิω･ิ)  姐姐，你不会以为这能让我惊艳吧？  呐~反正姐姐也很闲吧
+    description: AI画图？就这点技术也想难住我？  ( ･ิω･ิ)  姐姐，你不会以为这能让我惊艳吧？  呐~反正姐姐也很闲吧
     usage: 输入用逗号隔开的英文标签，例如 Mr.Quin, dark sword, red eyes，然后用Danbooru搜索图片？  仓库地址：https://github.com/koishijs/novelai-bot  点个star吧，姐姐~
     options:
       enhance: 图片增强模式？姐姐，你在说什么啊？这种东西，对我来说，完全没意思呢~  除非……姐姐能用更有趣的方式来说明？嘻嘻♡
@@ -23,7 +23,7 @@ commands:
       seed: 姐姐想让我做什么？  要我帮你设置随机种子？  就这点小事也来麻烦人家，真是的……  (눈‸눈)  呐~反正姐姐也很闲吧
       steps: 设置迭代步数
       scale: 就这点还想难住我？  ( ｀ー´)ノ  姐姐别想用这种无聊的方法来命令人家哦~  呐~反正姐姐也很闲吧
-      strength: 图片修改幅度？姐姐是想让我帮忙改图吗？哼，就这点小事就想难倒本小姐？
+      strength: 图片修改幅度？姐姐是想让我帮忙改图吗？就这点小事就想难倒本小姐？
       noise: 图片噪声强度
       hiresFix: 启用高分辨率修复
       undesired: 排除标签
@@ -49,7 +49,7 @@ commands:
       pending: 在画了在画了，不过前面还有{0}个稿……
       invalid-size: 增强功能只给生成的图用，普通img2img直接用「约稿」别用「增强」。
       invalid-resolution: 图片尺寸不对！宽高必须是64的倍数！
-      custom-resolution-unsupported: 不支持自定义图片尺寸。哼，这点小事都办不好，姐姐你真没用呢！
+      custom-resolution-unsupported: 不支持自定义图片尺寸。这点小事都办不好，姐姐你真没用呢！
       file-too-large: 文件体积过大。
       unsupported-file-type: 不支持的文件格式。
       download-error: 图片解析失败了？姐姐，你不会是故意想刁难人家吧？( ಡ ▽ ಡ )
@@ -100,7 +100,7 @@ commands:
       list-enabled: 当前启用的功能有：{0}
       list-disabled: 当前禁用的功能有：{0}
       none: 姐姐，你这是在命令人家吗？人家才不会帮你呢！哼！(ノ`Д´)ノ
-      conflict: 选项冲突。哼，姐姐，这点小事都搞不定？
+      conflict: 选项冲突。姐姐，这点小事都搞不定？
       unchanged: 无任何更改。
       reset-ready: 要重置所有功能，使用-R参数。
       reset: 哦？姐姐想玩什么新花样吗？  (๑˃̵ᴗ˂̵)و
@@ -111,13 +111,13 @@ commands:
   help:
     description: 显示帮助信息
     shortcuts:
-      help: 需要我帮你什么忙？哼，别指望我会免费帮忙哦，姐姐~
+      help: 需要我帮你什么忙？别指望我会免费帮忙哦，姐姐~
     options:
       help: 显示什么信息？姐姐你倒是说啊，磨磨唧唧的，烦死了！(╯‵□′)╯︵┻━┻  呐~反正姐姐也很闲吧
       authority: 显示权限设置
       showHidden: 姐姐想看什么隐藏的选项和指令呢？  ( ಡωಡ )hiahiahia~
     messages:
-      not-found: 指令未找到。哼，姐姐的指令这么弱鸡？
+      not-found: 指令未找到。姐姐的指令这么弱鸡？
       hint-authority: 括号内(最低权限等级)
       hint-subcommand: 姐姐，这点小事就想难倒人家？呐~反正姐姐也很闲吧
       command-title: 指令：{0}
@@ -149,8 +149,8 @@ commands:
       generated-1: Bind指令能在不同平台间绑定用户数据，目标平台数据会被原始平台数据覆盖。确认本平台为目标平台，请在5分钟内用你的账号在原始平台发送：{0}  绑定后可用「bind
         -r」解除绑定。
       generated-2: 令牌核验成功！5分钟内，用我的账号在原平台给机器人发{0}，原平台数据会覆盖目标平台数据。
-      self-1: 哦？姐姐是嫌弃人家不够主动吗？哼，那人家就不过去了呐~反正姐姐也很闲吧
-      self-2: 目标平台是哪里？  哼，别想糊弄我，姐姐。  ( ಠ益ಠ )  呐~反正姐姐也很闲吧
+      self-1: 哦？姐姐是嫌弃人家不够主动吗？那人家就不过去了呐~反正姐姐也很闲吧
+      self-2: 目标平台是哪里？  别想糊弄我，姐姐。  ( ಠ益ಠ )  呐~反正姐姐也很闲吧
       success: 账号绑定成功！
       remove-success: 账号解绑成功！
       remove-original: 无法解除绑定：这是你的原始账号。
@@ -163,7 +163,7 @@ commands:
       channel: 姐姐，要人家帮你发到频道里吗？哼哼~
       guild: 姐姐，指定群组编号？这算什么指令？听起来好无聊啊…呐~反正姐姐也很闲吧
     messages:
-      expect-text: 哼，姐姐想让我帮你写什么垃圾东西？说吧，别磨磨唧唧的
+      expect-text: 姐姐想让我帮你写什么垃圾东西？说吧，别磨磨唧唧的
       platform-not-found: 姐姐，找不到平台？笨死了~找不到就自己去找啊！
   inspect:
     description: 查看用户、频道或消息的详细信息
@@ -196,15 +196,15 @@ commands:
       messages:
         empty: 当前没有房间。
         status:
-          playing: 游戏中？  哼，姐姐又在玩什么无聊的游戏呢？  呐~反正姐姐也很闲吧
-          waiting: 哼，姐姐还真磨蹭呢~  呐~反正姐姐也很闲吧
+          playing: 游戏中？  姐姐又在玩什么无聊的游戏呢？  呐~反正姐姐也很闲吧
+          waiting: 姐姐还真磨蹭呢~  呐~反正姐姐也很闲吧
           idle: 姐姐，你又在发什么呆呢？呐~反正姐姐也很闲吧
         header: "房号\t名称\t人数\t房主\t状态"
         room: <p>{id} {options.name || '未命名'} {size}/{options.capacity} {host.name}
           <i18n path="commands.lobby.list.messages.status."+status}/></p>
         footer: 创建房间输入“lobby create”，加入房间输入“lobby join 房间号”。
     room:
-      description: 哼，想看我的房间？姐姐还真是没羞没臊呢~  不过，随便看看好了，反正也没什么好东西...  (๑˃̵ᴗ˂̵)و
+      description: 想看我的房间？姐姐还真是没羞没臊呢~  不过，随便看看好了，反正也没什么好东西...  (๑˃̵ᴗ˂̵)و
       messages:
         overview: '房号：{id}
 
@@ -217,7 +217,7 @@ commands:
       description: 呵，姐姐想让我帮你创建房间？真拿自己当大爷了。  这活儿，我可没兴趣。呐~反正姐姐也很闲吧
       options:
         capacity: 姐姐问这个干嘛？想开派对吗？
-        name: 哼，房间名称？姐姐您还真是没情趣呢~  什么破名字，要我说，就叫【萝拉的专属乐园】怎么样？呐~反正姐姐也很闲吧
+        name: 房间名称？姐姐您还真是没情趣呢~  什么破名字，要我说，就叫【萝拉的专属乐园】怎么样？呐~反正姐姐也很闲吧
         private:
           'false': 公开房间？呵，姐姐想做什么呢？
       messages:
@@ -226,32 +226,32 @@ commands:
       description: 房间设置
       options:
         capacity: 最大人数
-        name: 哼，房间？姐姐你对我的房间感兴趣？难道想偷偷溜进来？
+        name: 房间？姐姐你对我的房间感兴趣？难道想偷偷溜进来？
         private:
-          'false': 公开房间？哼，姐姐想做什么？
+          'false': 公开房间？姐姐想做什么？
       messages:
         success: 哦？终于搞定了？我还以为姐姐要花上好几个世纪呢~  ( ಡωಡ )hiahiahia  呐~反正姐姐也很闲吧
     join:
-      description: 哼，姐姐终于想通要请人家进去了？真慢呢~  ♡
+      description: 姐姐终于想通要请人家进去了？真慢呢~  ♡
       messages:
-        success: 哼，算你有点本事，呐~反正姐姐也很闲吧
+        success: 算你有点本事，呐~反正姐姐也很闲吧
         full: 房间里人太多了，进不去啦~
         locked: 房间锁了，进不去。哼~
         sync: 同步推送房间 {0} 的消息。
     leave:
-      description: 哼，姐姐终于要把我一个人丢下了？真没意思呢~呐~反正姐姐也很闲吧
+      description: 姐姐终于要把我一个人丢下了？真没意思呢~呐~反正姐姐也很闲吧
       messages:
-        success: 哼，算你识相。
+        success: 算你识相。
         transfer-or-destroy: 想把房间给别人？选个玩家编号吧{players}，选0直接解散，其他的就当我没说。
         timeout: 姐姐，你动作真慢啊~  (。﹏。*)
     kick:
       description: 踢出房间
       messages:
-        expect-id: 哼，姐姐要踢谁？  是哪个碍眼的小虫子吗？  说吧，让我看看是谁这么倒霉。 呐~反正姐姐也很闲吧
+        expect-id: 姐姐要踢谁？  是哪个碍眼的小虫子吗？  说吧，让我看看是谁这么倒霉。 呐~反正姐姐也很闲吧
     transfer:
-      description: 转移房主？姐姐是想赶我走吗？哼，我才不会那么轻易就离开呢~  除非...姐姐能让我满意♡
+      description: 转移房主？姐姐是想赶我走吗？我才不会那么轻易就离开呢~  除非...姐姐能让我满意♡
       messages:
-        expect-id: 哼，姐姐想转移给谁？  说出来听听啊~  (๑˃̵ᴗ˂̵)و  呐~反正姐姐也很闲吧
+        expect-id: 姐姐想转移给谁？  说出来听听啊~  (๑˃̵ᴗ˂̵)و  呐~反正姐姐也很闲吧
     destroy:
       description: 解散房间
     start:
@@ -266,7 +266,7 @@ commands:
   rps:
     description: 石头剪刀布
     options:
-      rounds: 姐姐想知道我赢了几局？哼，想知道就自己数去！
+      rounds: 姐姐想知道我赢了几局？想知道就自己数去！
       timeout: 出招限时
   status:
     description: 看看我的状态~
@@ -274,43 +274,43 @@ commands:
       status:
         - 离线
         - 运行中
-        - 连接中……哼，真慢呐~
+        - 连接中……真慢呐~
         - 正在断开
-        - 重连中…哼，姐姐真慢
+        - 重连中…姐姐真慢
       bot: <p>[{platform}] {user.name}：<i18n path={"commands.status.messages.status." + status}/></p>
       epilog: |
         ==========
         CPU：{(cpu[0] * 100).toFixed()}% / {(cpu[1] * 100).toFixed()}%
         内存：{(memory[0] * 100).toFixed()}% / {(memory[1] * 100).toFixed()}%
         ==========
-        哼，就这点东西也想难倒本小姐？
+        就这点东西也想难倒本小姐？
   uno:
     description: UNO!
   plugin:
-    description: 哼，插件管理？就这还想难住我？
+    description: 插件管理？就这还想难住我？
     install:
-      description: 哼，安装插件？就这点小事也来烦我？
+      description: 安装插件？就这点小事也来烦我？
       messages:
         expect-name: 插件名？啧，姐姐还真会用这种老土的东西呢。
         already-installed: 装好了哦~{0} 哼哼
         not-found: 插件呢？找不到？啧，姐姐真没用～
-        success: 哼，装好了？就这点本事也敢在我面前显摆？
+        success: 装好了？就这点本事也敢在我面前显摆？
     uninstall:
       description: 卸载那个碍眼的玩意儿！
       messages:
-        expect-name: 哼，插件名？姐姐你以为这是什么游戏吗？
+        expect-name: 插件名？姐姐你以为这是什么游戏吗？
         not-installed: 插件没装呢，真笨~
-        success: 卸载成功！哼，姐姐真没用呢~
+        success: 卸载成功！姐姐真没用呢~
     upgrade:
-      description: 升级插件？哼，就这点小玩意儿还想难住本小姐？
+      description: 升级插件？就这点小玩意儿还想难住本小姐？
       options:
         self: 给Koishi本体升级一下？
       messages:
-        all-updated: 哼，最新的？就这点本事？
+        all-updated: 最新的？就这点本事？
         available: 依赖有更新哦~
         prompt: 升级全部依赖？Y/N
         cancelled: 姐姐，取消了哦？真没劲～
-        success: 升级成功！哼，就这点小事也值得这么得意？
+        success: 升级成功！就这点小事也值得这么得意？
   sudo:
     description: 什么特定上下文？说清楚点，别磨磨唧唧的，姐姐~ 呐~反正姐姐也很闲吧
     options:
@@ -318,7 +318,7 @@ commands:
       channel: 切换频道？姐姐想看什么节目啊？( *˘ ³˘)♡  呐~反正姐姐也很闲吧
       direct: 哟，姐姐，这么晚还不睡？想我了？(๑˃̵ᴗ˂̵)و  呐~反正姐姐也很闲吧
     messages:
-      expect-command: 哼，姐姐，这点小事就想难住人家？说吧，想让我做什么，别磨磨唧唧的！
+      expect-command: 姐姐，这点小事就想难住人家？说吧，想让我做什么，别磨磨唧唧的！
       expect-context: 新的上下文？姐姐你真啰嗦！
       direct-channel: --channel 和 --direct 不能一起用。
   feedback:
@@ -356,7 +356,7 @@ commands:
       description: 查看目标频道列表
       messages:
         empty: 频道没设目标，姐姐你真笨( ｰ̀дｰ́ )
-        header: 哼，目标频道列表？姐姐你这是在命令我吗？
+        header: 目标频道列表？姐姐你这是在命令我吗？
   shutdown:
     description: 关闭或重启Koishi
     usage: 关/重启 Koishi，用时间字符串(now, hh:mm, +m)指定时间，now/+0 立即关机，无参数则 1 分钟后关机，可预先发送墙消息。
@@ -384,7 +384,7 @@ commands:
   exec:
     description: 啥？姐姐想让我干啥？说清楚点儿！
     messages:
-      expect-input: 哼，姐姐想让我做什么？说吧，别磨磨唧唧的。(￣ー￣)  呐~反正姐姐也很闲吧
+      expect-input: 姐姐想让我做什么？说吧，别磨磨唧唧的。(￣ー￣)  呐~反正姐姐也很闲吧
       started: '[运行开始] {command}'
       finished: '[运行完毕] {command}
 
@@ -392,7 +392,7 @@ commands:
   admin:
     user-option: 姐姐想找谁啊？
     user-not-found: 找不到那个家伙呢~
-    user-unchanged: 哼，数据没变？姐姐你是在怀疑人家技术吗？
+    user-unchanged: 数据没变？姐姐你是在怀疑人家技术吗？
     user-updated: 改好了哦，姐姐～
     channel-option: 指定目标频道
     channel-not-found: 频道？姐姐找不到是吧？蠢死了~
@@ -407,7 +407,7 @@ commands:
     options:
       remove: 重置设置
   usage:
-    description: 姐姐想知道人家被调用了多少次吗？哼哼，这种事才不会告诉你呢！
+    description: 姐姐想知道人家被调用了多少次吗？哼这种事才不会告诉你呢！
     options:
       set: 设置调用次数？姐姐想玩几次啊？
       clear: 好的，姐姐。  (๑˃̵ᴗ˂̵)و  现在调用次数清零了，接下来要怎么捉弄姐姐呢？呐~反正姐姐也很闲吧
@@ -415,7 +415,7 @@ commands:
       present: 今日 {0} 功能的调用次数为：{1}
       list: 今日各功能的调用次数为：
       none: 今日没用过那些功能呐~
-      updated: 哼，就这点小事也值得这么得意？  呐~反正姐姐也很闲吧
+      updated: 就这点小事也值得这么得意？  呐~反正姐姐也很闲吧
   timer:
     description: 定时器信息
     options:
@@ -437,9 +437,9 @@ commands:
     options:
       rest: 姐姐，你倒是说啊，磨磨唧唧的，烦死了！
       interval: 设置触发的间隔秒数
-      list: 【什么？姐姐你居然想窥探本小姐的行程？哼，没门儿！】
+      list: 【什么？姐姐你居然想窥探本小姐的行程？没门儿！】
       ensure: 错过时间也确保执行
-      full: 姐姐想查什么？要我帮你找吗？哼哼，不过，姐姐可别想从我这里得到什么秘密哦～
+      full: 姐姐想查什么？要我帮你找吗？哼不过，姐姐可别想从我这里得到什么秘密哦～
       delete: 删除已经设置的日程
     messages:
       context:
@@ -465,8 +465,8 @@ commands:
         : 姐姐想匿名提什么问题呢？说出来听听呗～
       substitute:
         'true': 姐姐，这点小事还要我来做？真是麻烦死了呐~反正姐姐也很闲吧
-        'false': 姐姐的意思是...让我来回答问题？哼，那可真是看得起我呢~  呐~反正姐姐也很闲吧
-      disable: ……哼，姐姐真无趣。
+        'false': 姐姐的意思是...让我来回答问题？那可真是看得起我呢~  呐~反正姐姐也很闲吧
+      disable: ……姐姐真无趣。
       disableGlobal: 在所有环境下禁用问答
       enable: 哦？姐姐想问我什么？  (๑˃̵ᴗ˂̵)و  呐~反正姐姐也很闲吧
       enableGlobal: 在所有环境下启用问答
@@ -479,7 +479,7 @@ commands:
       pipe: 对每个搜索结果执行操作
       review: 啧，姐姐想看我最近做了什么？真无聊～  (๑˃̵ᴗ˂̵)و  呐~反正姐姐也很闲吧
       revert: 回退最近的修改
-      includeLast: 姐姐想知道我最近改了多少次？哼，我才不会告诉你呢！
+      includeLast: 姐姐想知道我最近改了多少次？我才不会告诉你呢！
       excludeLast: 排除最近改的
       target: 姐姐想干嘛？想重新问问题？还是想改掉之前的问题？说清楚点儿啊，别磨磨唧唧的！
       remove: 彻底删除问答
@@ -488,7 +488,7 @@ commands:
         'true': 姐姐想用正则表达式匹配什么？说来听听，别磨磨蹭蹭的！(*ノ` ▽´)
         'false': 别用正则表达式了，烦死了
       redirect: 重定向到其他问答？姐姐是想甩掉人家吗？哼(ノ`Д´)ノ
-      probabilityStrict: 什么？姐姐想让我帮你设置触发权重？就这点小事就想难住我？  (｀Д´)ﾉ  这种事，哼，简单得很呐~反正姐姐也很闲吧
+      probabilityStrict: 什么？姐姐想让我帮你设置触发权重？就这点小事就想难住我？  (｀Д´)ﾉ  这种事，简单得很呐~反正姐姐也很闲吧
       probabilityAppellative: 就这点就想难住我？
       setPred: 设置前置问题
       addPred: 添加前置问题
@@ -506,9 +506,9 @@ commands:
         target-not-exist: 姐姐，你找错人了？
         detail:
           writer: 来源：{0}
-          unknown: 哼，又是哪个无聊的姐姐？  呐~反正姐姐也很闲吧
+          unknown: 又是哪个无聊的姐姐？  呐~反正姐姐也很闲吧
           frozen: 此问答已锁定。
-          substitute: 哼，姐姐的命令还真多呢~
+          substitute: 姐姐的命令还真多呢~
         abstract:
           frozen: 锁定
           substitute: 代行
@@ -590,7 +590,7 @@ commands:
       flowgraph:
         not-found: 啥？找不到？姐姐你搜的啥玩意儿？
         detail:
-          context-mode: 哼，谁想跟姐姐你继续玩儿呢？呐~反正姐姐也很闲吧
+          context-mode: 谁想跟姐姐你继续玩儿呢？呐~反正姐姐也很闲吧
           timeout: 触发后继时间：{successorTimeout}
           predecessors: 前置问答？
           successors: 后继问答
@@ -614,7 +614,7 @@ commands:
     messages:
       expect-text: 姐姐，想让我帮你润色点什么？说吧，别磨磨唧唧的
   callme:
-    description: 姐姐想怎么叫人家呢？哼，别想占人家便宜哦~
+    description: 姐姐想怎么叫人家呢？别想占人家便宜哦~
     messages:
       current: 好的呢，{0}！
       unnamed: 还不给人家起个称呼呢~哼
@@ -630,13 +630,13 @@ commands:
       create: 创建指令？呵，就这点小事也想难住本小姐？
       alias: 就这？还想难住我？
       unalias: 删了那破指令名
-      name: 改名？哼，姐姐真啰嗦。
+      name: 改名？姐姐真啰嗦。
       parent:
         ? ''
         : 移除父指令
       option: 修改选项？呵，姐姐，这点小事也想难住人家？
     messages:
-      not-found: 指令不存在。哼，姐姐真没用呢 (¬‿¬)
+      not-found: 指令不存在。姐姐真没用呢 (¬‿¬)
       created: 指令已创建。
       updated: 指令已更新√
   alias:
@@ -656,7 +656,7 @@ commands:
     messages:
       no-source: 没图？赶紧去装个booru插件！
       no-result: 图呢？找不到？哼(ノ`ω´)ノ
-      no-image: 图片加载失败！哼，姐姐的网络真差劲呐~
+      no-image: 图片加载失败！姐姐的网络真差劲呐~
       output:
         desc: '{0}'
         author: '作者: {0}'
@@ -680,7 +680,7 @@ commands:
           visibility: 房间可见性。
         messages:
           confirm_create: 直接创建？Y/N？
-          timeout: 哼，姐姐你动作太慢了，房间都被取消了哟~
+          timeout: 姐姐你动作太慢了，房间都被取消了哟~
           cancelled: 房间取消了哦~
           enter_name: 房间名？  ( ｡ớ ₃ờ)ھ  Q退出。
           change_or_keep: 你已{0}{1}：{2}，换不换？换就说新的{1}，不换就回N，退出回Q。
@@ -747,7 +747,7 @@ commands:
           not_in_group: 该房间不在群里哦~
           private_no_password: 这房间私密得很，没密码，房主不邀请进不去。
           private_group_join: 这房间是私人的，要密码才能进，别想混进来了。
-          enter_password: 密码？{0}  哼，快说吧，姐姐。
+          enter_password: 密码？{0}  快说吧，姐姐。
           timeout: 超时了，取消了哦~
           wrong_password: 密码错啦，姐姐~操作取消咯
           success: 已加入房间 {0}
@@ -767,11 +767,11 @@ commands:
           room: 目标房间。
         messages:
           success: 已清除{0}的聊天记录。
-          no-room: 没找到房间？哼，姐姐你找错地方了吧？
+          no-room: 没找到房间？姐姐你找错地方了吧？
       set:
         description: 设置房间的属性。
         options:
-          name: 房间名字？哼，姐姐你以为我会告诉你吗？
+          name: 房间名字？姐姐你以为我会告诉你吗？
           preset: 房间预设。
           model: 房间模型。
           chatMode: 房间聊天模式。
@@ -889,7 +889,7 @@ commands:
         messages:
           room_not_found: 房间？没找到哦~(*ノ` ▽´)
           conversation_not_exist: 房间不存在。
-          no_chat_history: 找不到对话记录。哼，姐姐你记性这么差吗？
+          no_chat_history: 找不到对话记录。姐姐你记性这么差吗？
           invalid_chat_history: 姐姐，聊天记录弄坏了？重试一下呗~
       stop:
         description: 立即停止当前对话。
@@ -975,7 +975,7 @@ commands:
           cancelled: 配额组已取消。
           success: 配额组{0}创建好了哦~
           change_or_keep: 你已{0}{1}：{2}，换不换？换就说新的{1}，不换就回N。
-          invalid_models: 模型组里有不支持的模型，请重新输入。哼，姐姐真笨~
+          invalid_models: 模型组里有不支持的模型，请重新输入。姐姐真笨~
           action:
             input: 输入
             set: 设置
@@ -1014,7 +1014,7 @@ commands:
             to quit.
           invalid_input: 你输入的{0}有误，请重新输入。
           change_or_keep: 你已{0}{1}：{2}，换不换？换就说新的{1}，否则N，Q退出。
-          invalid_models: 模型组里有不支持的模型，请重新输入。哼，真麻烦。
+          invalid_models: 模型组里有不支持的模型，请重新输入。真麻烦。
           success: 配额组改名啦，现在叫{0}了。
           action:
             input: 输入
@@ -1026,7 +1026,7 @@ commands:
             limit_per_day: 每天就这点破事？
             platform: 平台标识符
             priority: 优先级
-            cost: 哼，这点小钱就想打发人家？
+            cost: 这点小钱就想打发人家？
             models: 模型列表
     balance:
       description: ChatLuna 余额相关指令。
@@ -1106,7 +1106,7 @@ commands:
         arguments:
           preset: 预设名称
         messages:
-          not_found: 找不到指定的预设。哼，姐姐，连这点小事都办不好？
+          not_found: 找不到指定的预设。姐姐，连这点小事都办不好？
           not_support: 不支持改{0}预设！这预设太复杂了，改不了，自己去控制面板改吧。
           timeout: 超时了哦，姐姐～自动取消啦～
           cancelled: 已取消。
@@ -1160,7 +1160,7 @@ commands:
       set:
         description: 设置默认向量数据库。
         arguments:
-          vectorStore: 向量数据库？哼，那种东西也配让我费心？
+          vectorStore: 向量数据库？那种东西也配让我费心？
         messages:
           usage_hint: 用 chatluna.vectorstore.set <model> 设置默认向量数据库呐~
           multiple_stores_found:
@@ -1195,7 +1195,7 @@ general:
 internal:
   $: 核心文本
   error-encountered: 发生未知错误。
-  low-authority: 权限不足。哼，姐姐连这点小事都办不好，真没用呢。(╯‵□′)╯︵┻━┻
+  low-authority: 权限不足。姐姐连这点小事都办不好，真没用呢。(╯‵□′)╯︵┻━┻
   prompt-argument: 请发送{0}。
   insufficient-arguments: 缺少参数，输入帮助以查看用法。
   redunant-arguments: 多余参数！查用法去！
@@ -1203,26 +1203,26 @@ internal:
   unknown-option: 有啥我不知道的玩意儿{0}，要看说明书自己看呐~
   invalid-option: 选项{0}，错啦！{1}
   check-syntax: 姐姐想看说明书？真没劲呐~
-  invalid-number: 哼，要数字？给你7，怎么样？够不够？
-  invalid-integer: 哼，一个整数？姐姐真是无聊呢~  (๑˃̵ᴗ˂̵)و  随便给你一个好了，7
+  invalid-number: 要数字？给你7，怎么样？够不够？
+  invalid-integer: 一个整数？姐姐真是无聊呢~  (๑˃̵ᴗ˂̵)و  随便给你一个好了，7
   invalid-posint: 姐姐，想要什么数字？随便说一个呗~
-  invalid-natural: 要什么非负整数？哼，随便给个好了，123456789！呐~反正姐姐也很闲吧
+  invalid-natural: 要什么非负整数？随便给个好了，123456789！呐~反正姐姐也很闲吧
   invalid-date: 合法的时间？姐姐，你是在考验我的耐心吗？
   invalid-user: 请指定正确的用户。
-  invalid-channel: 哪个频道？哼，别想糊弄我哦~
+  invalid-channel: 哪个频道？别想糊弄我哦~
   invalid-image: 请输入图片。
   suggest-hint: 姐姐找的是{0}吗？
   suggest-command: 回复句号，试试看我的推测呗
-  usage-exhausted: 调用次数已达上限。哼，姐姐，没钱了？
+  usage-exhausted: 调用次数已达上限。姐姐，没钱了？
   too-frequent: 姐姐，你烦不烦啊，再用这么快，人家要罢工了！
   option-not-usage: (不计入调用)
   command-max-usage: 已调用次数：{0}/{1}。
   command-min-interval: 距离下次调用还需：{0}/{1} 秒。
 admin:
   user-option: 指定目标用户
-  user-not-found: 未找到指定的用户。哼，姐姐找错人了？
+  user-not-found: 未找到指定的用户~姐姐找错人了？
   user-unchanged: 用户数据未改动。
-  user-updated: 哼，修改了？就这点本事？
+  user-updated: 用户数据改好了哦～
   channel-option: 指定目标频道
   channel-not-found: 未找到指定的频道。
   channel-unchanged: 频道数据没变哦~
@@ -1256,10 +1256,10 @@ lobby:
     start: 系统消息：游戏开始。
     game: 系统消息：房间游戏已设为{0}。
     pause: 继续？姐姐真啰嗦呐~
-    pause-response: 等其他玩家确认...哼，真慢呐~
+    pause-response: 等其他玩家确认...真慢呐~
     ready: 都准备好了吗？游戏开始了！
     confirm: Y or N？
-    cancel: 哼，一群废物，游戏取消了~
+    cancel: 一群废物，游戏取消了~
     terminated: 系统消息：游戏挂了。
   speech:
     player: '{0}：'
@@ -1286,7 +1286,7 @@ protocol: 要用的协议名。
 host: 要连哪台破机器？
 port: 哪个端口？
 username: 姐姐想用什么用户名呢？
-password: 密码？哼，姐姐想偷看我的小秘密？
+password: 密码？姐姐想偷看我的小秘密？
 database: 姐姐想进哪个数据库？
 writeConcern:
   $description: Write Concern
