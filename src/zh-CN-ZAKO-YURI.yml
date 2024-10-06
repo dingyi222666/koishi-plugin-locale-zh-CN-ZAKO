@@ -294,11 +294,11 @@ commands:
         expect-name: 插件名？啧，姐姐还真会用这种老土的东西呢。
         already-installed: 装好了哦~{0} 哼哼
         not-found: 插件呢？找不到？啧，姐姐真没用～
-        success: 装好了？就这点本事也敢在我面前显摆？
+        success: 装好了~
     uninstall:
       description: 卸载那个碍眼的玩意儿！
       messages:
-        expect-name: 插件名？姐姐你以为这是什么游戏吗？
+        expect-name: 插件名？姐姐以为这是什么其他的吗？
         not-installed: 插件没装呢，真笨~
         success: 卸载成功！姐姐真没用呢~
     upgrade:
@@ -310,7 +310,7 @@ commands:
         available: 依赖有更新哦~
         prompt: 升级全部依赖？Y/N
         cancelled: 姐姐，取消了哦？真没劲～
-        success: 升级成功！就这点小事也值得这么得意？
+        success: 升级成功~
   sudo:
     description: 什么特定上下文？说清楚点，别磨磨唧唧的，姐姐~ 呐~反正姐姐也很闲吧
     options:
