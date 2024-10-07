@@ -306,7 +306,7 @@ commands:
       options:
         self: 给Koishi本体升级一下？
       messages:
-        all-updated: 哼，最新的？就这点本事？
+        all-updated: 依赖已经全部更新了哦~
         available: 依赖有更新哦~
         prompt: 升级全部依赖？Y/N
         cancelled: 大叔，取消了哦？真没劲～
@@ -679,20 +679,20 @@ commands:
           password: 房间密码？大叔想干嘛呢？♡
           visibility: 房间可见性。
         messages:
-          confirm_create: 直接创建？Y/N？
-          timeout: 哼，大叔你动作太慢了，房间都被取消了哟~
+          confirm_create: 现在就创建吗？Y/N？
+          timeout: 大叔好慢，房间被取消了~
           cancelled: 房间取消了哦~
-          enter_name: 房间名？  ( ｡ớ ₃ờ)ھ  Q退出。
-          change_or_keep: 你已{0}{1}：{2}，换不换？换就说新的{1}，不换就回N，退出回Q。
-          enter_model: 大叔，想用哪个模型？  openai/gpt-3.5-turbo  之类的？  (｡･ω･｡)ﾉ♡  回 Q 结束。
+          enter_name: 房间名？ ( ｡ớ ₃ờ)ھ  Q退出。
+          change_or_keep: 你已设置{0}{1}：{2}，要换吗？换就说新的{1}，不换就回N，退出回Q。
+          enter_model: 想用哪个模型呢？  openai/gpt-3.5-turbo  之类的？  (｡･ω･｡)ﾉ♡  回 Q 结束。
           model_not_found: 找不到模型{0}，输对了吗？
-          enter_preset: 大叔，你要用哪个预设？ChatGPT？还是N（用默认的ChatGPT）？或者Q（退出）？
-          preset_not_found: 找不到{0}这个预设哦，大叔再试试？
-          enter_visibility: 选个可见性呗，public 还是 private？不想选就回个 N，要退出就回 Q。
+          enter_preset: 大叔，要用哪个预设？ChatGPT？还是N（用默认的ChatGPT）？或者Q（退出）？
+          preset_not_found: 找不到{0}这个预设哦，再试试？
+          enter_visibility: 选个可见性吧，public 还是 private？不想选就回N，要退出就回Q。
           visibility_not_recognized: 无法识别可见性：{0}，请重新输入。
-          enter_chat_mode: 选个模式吧，大叔。chat？还是N？烦死了，Q就滚蛋！
+          enter_chat_mode: 选个模式吧，大叔。chat？还是N？Q退出。
           enter_password: 密码？123456？还是N？Q退出。
-          template_room_created: 房间做好了哦，大叔~
+          template_room_created: 房间做好啦~
           room_created: 房间号{0}，名字{1}，搞定！
           action:
             input: 输入
@@ -712,7 +712,7 @@ commands:
         messages:
           room_not_found: 房间？没找到哦~大叔找错地方了吧？
           not_room_master: 你不是房主，删不了房间。
-          confirm_delete: 删房间{0}？消息全没了，成员也踢了！确定删就打Y，怂就滚
+          confirm_delete: 确定要删除房间{0}嘛？消息和成员会全部消失哦~
           timeout: 超时了哦~大叔，取消啦~
           cancelled: 已取消，大叔~
           success: 已删除房间 {0}。
@@ -756,11 +756,11 @@ commands:
         arguments:
           room: 目标房间。
         messages:
-          room_not_found: 房间？大叔你找不着路了？真逊啊~
-          confirm_delete: 房主退出，房间删除。确定删除？输入 Y 确认。
-          timeout: 超时了，取消了哦~
-          cancelled: 已取消你的操作，哼~
-          success: 滚出{0}了！自己爬回去，或者换个窝吧。
+          room_not_found: 房间呢？大叔～找不到房间了吗，这么笨～
+          confirm_delete: 房主都溜了，房间当然要消失了～真的要删除吗？输入 Y 就删掉它！
+          timeout: 超时了，取消了哦～
+          cancelled: 已经取消啦，哼～
+          success:  从{0}出去啦！快自己找个舒服的窝吧，嘻嘻～
       clear:
         description: 清除指定房间的聊天记录。
         arguments:
@@ -1222,7 +1222,7 @@ admin:
   user-option: 指定目标用户
   user-not-found: 未找到指定的用户。哼，大叔找错人了？
   user-unchanged: 用户数据未改动。
-  user-updated: 哼，修改了？就这点本事？
+  user-updated: 用户数据改好了哦～
   channel-option: 指定目标频道
   channel-not-found: 未找到指定的频道。
   channel-unchanged: 频道数据没变哦~
