@@ -1,0 +1,53 @@
+{
+    "name": "koishi-plugin-locale-zh-cn-zako",
+    "description": "杂鱼中文语言包",
+    "version": "1.0.1",
+    "type": "module",
+    "main": "lib/index.cjs",
+    "module": "lib/index.mjs",
+    "typings": "lib/index.d.ts",
+    "exports": {
+        ".": {
+            "types": "./lib/index.d.ts",
+            "import": "./lib/index.mjs",
+            "require": "./lib/index.cjs"
+        },
+        "./package.json": "./package.json"
+    },
+    "files": [
+        "lib",
+        "dist",
+        "resources"
+    ],
+    "license": "MIT",
+    "keywords": [
+        "koishi",
+        "plugin",
+        "杂鱼",
+        "locale"
+    ],
+    "author": "dingyi222666 <dingyi222666@foxmail.com>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dingyi222666/koishi-plugin-locale-zh-CN-ZAKO.git",
+        "directory": "."
+    },
+    "bugs": {
+        "url": "https://github.com/dingyi222666/koishi-plugin-locale-zh-CN-ZAKO/issues"
+    },
+    "homepage": "https://github.com/dingyi222666/koishi-plugin-locale-zh-CN-ZAKO#readme",
+    "devDependencies": {
+        "koishi": "^4.17.0"
+    },
+    "peerDependencies": {
+        "koishi": "^4.17.0"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "koishi": {
+        "description": {
+            "zh": "杂鱼语言包"
+        }
+    }
+}

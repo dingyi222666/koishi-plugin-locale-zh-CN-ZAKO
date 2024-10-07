@@ -1,41 +1,12 @@
 {
-    "name": "koishi-plugin-locale-zh-cn-zako",
+    "name": "@root/koishi-plugin-locale-zh-cn-zako",
     "description": "杂鱼中文语言包",
-    "version": "1.0.1",
+    "version": "1.0.0",
     "type": "module",
-    "main": "lib/index.cjs",
-    "module": "lib/index.mjs",
-    "typings": "lib/index.d.ts",
-    "exports": {
-        ".": {
-            "import": "./lib/index.mjs",
-            "require": "./lib/index.cjs",
-            "types": "./lib/index.d.ts"
-        },
-        "./package.json": "./package.json"
-    },
-    "files": [
-        "lib",
-        "dist",
-        "resources"
+    "workspaces": [
+        "packages/*"
     ],
     "license": "MIT",
-    "keywords": [
-        "koishi",
-        "plugin",
-        "杂鱼",
-        "locale"
-    ],
-    "author": "dingyi222666 <dingyi222666@foxmail.com>",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/dingyi222666/koishi-plugin-locale-zh-CN-ZAKO.git",
-        "directory": "."
-    },
-    "bugs": {
-        "url": "https://github.com/dingyi222666/koishi-plugin-locale-zh-CN-ZAKO/issues"
-    },
-    "homepage": "https://github.com/dingyi222666/koishi-plugin-locale-zh-CN-ZAKO#readme",
     "devDependencies": {
         "@typescript-eslint/eslint-plugin": "^7.18.0",
         "@typescript-eslint/parser": "^8.6.0",
@@ -50,16 +21,11 @@
         "eslint-plugin-prettier": "^5.2.1",
         "eslint-plugin-promise": "^7.1.0",
         "koishi": "^4.18.0",
+        "prettier": "^3.3.3",
         "yakumo": "^1.0.0-beta.18",
         "yakumo-esbuild": "^1.0.0-beta.6",
         "yakumo-mocha": "^1.0.0-beta.2",
         "yakumo-tsc": "^1.0.0-beta.4"
-    },
-    "peerDependencies": {
-        "koishi": "^4.17.0"
-    },
-    "engines": {
-        "node": ">=18.0.0"
     },
     "scripts": {
         "build": "yarn yakumo build",
@@ -69,10 +35,5 @@
         "pub": "yarn yakumo publish",
         "lint": "yarn eslint src --ext=ts",
         "lint-fix": "yarn eslint src --ext=ts --fix"
-    },
-    "koishi": {
-        "description": {
-            "zh": "杂鱼语言包"
-        }
     }
 }
