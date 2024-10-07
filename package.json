@@ -1,43 +1,12 @@
 {
-    "name": "koishi-plugin-locale-zh-cn-zako-yuri",
-    "description": "杂鱼中文语言包（百合版）",
-    "version": "1.0.7",
+    "name": "@root/koishi-plugin-locale-zh-cn-zako",
+    "description": "杂鱼中文语言包",
+    "version": "1.0.0",
     "type": "module",
-    "main": "lib/index.cjs",
-    "module": "lib/index.mjs",
-    "typings": "lib/index.d.ts",
-    "exports": {
-        ".": {
-            "types": "./lib/index.d.ts",
-            "import": "./lib/index.mjs",
-            "require": "./lib/index.cjs"
-        },
-        "./package.json": "./package.json"
-    },
-    "files": [
-        "lib",
-        "dist",
-        "resources"
+    "workspaces": [
+        "packages/*"
     ],
     "license": "MIT",
-    "keywords": [
-        "koishi",
-        "plugin",
-        "杂鱼",
-        "locale",
-        "百合",
-        "yuri"
-    ],
-    "author": "q78kg <hoshino-yumetsuki@outlook.com>",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Hoshino-Yumetsuki/koishi-plugin-locale-zh-CN-ZAKO.git",
-        "directory": "."
-    },
-    "bugs": {
-        "url": "https://github.com/Hoshino-Yumetsuki/koishi-plugin-locale-zh-CN-ZAKO/issues"
-    },
-    "homepage": "https://github.com/Hoshino-Yumetsuki/koishi-plugin-locale-zh-CN-ZAKO#readme",
     "devDependencies": {
         "@typescript-eslint/eslint-plugin": "^7.18.0",
         "@typescript-eslint/parser": "^8.6.0",
@@ -58,12 +27,6 @@
         "yakumo-mocha": "^1.0.0-beta.2",
         "yakumo-tsc": "^1.0.0-beta.4"
     },
-    "peerDependencies": {
-        "koishi": "^4.17.0"
-    },
-    "engines": {
-        "node": ">=18.0.0"
-    },
     "scripts": {
         "build": "yarn yakumo build",
         "build:prod": "yarn yakumo build --minify",
@@ -72,10 +35,5 @@
         "pub": "yarn yakumo publish",
         "lint": "yarn eslint src --ext=ts",
         "lint-fix": "yarn eslint src --ext=ts --fix"
-    },
-    "koishi": {
-        "description": {
-            "zh": "杂鱼中文语言包（百合版）"
-        }
     }
 }
