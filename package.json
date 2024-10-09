@@ -1,8 +1,7 @@
 {
-    "name": "@root/koishi-plugin-locale-zh-cn-zako",
+    "name": "@root/locale-zh-cn-zako",
     "description": "杂鱼中文语言包",
     "version": "1.0.0",
-    "type": "module",
     "workspaces": [
         "packages/*"
     ],
